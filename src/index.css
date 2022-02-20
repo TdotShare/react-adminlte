@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active{
+    background-color:#7B1FA2;
+    color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active-logout, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active-logout{
+    background-color:#EA2027;
+    color: #fff;
+}
+
+
+/*สีปุ่มตอนยังไม่ชี้*/
+
+.btn-primary{
+    color:#fff;/*สีตัวหนังสือในปุ่ม*/
+    background-color:#9C27B0;/*สีพื้นหลังปุ่ม*/
+    border-color:#7B1FA2;/*สีเส้นขอบปุ่ม*/
+    border-width: 0.5px;/*ขนาดของเส้นขอบปุ่ม*/
+}
+
+/*สีปุ่มตอนชี้*/
+.btn-primary:hover,.btn-primary:focus,.btn-primary.focus{
+color:#fff;/*สีตัวหนังสือในปุ่ม*/
+background:#7B1FA2;/*พื้นหลังปุ่ม*/
+border-color:#9C27B0;/*เส้นขอบปุ่ม*/
+border-width: 0.5px;/*ขนาดของเส้นขอบปุ่ม*/
 }
